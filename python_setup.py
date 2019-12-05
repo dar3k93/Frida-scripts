@@ -31,5 +31,8 @@ script.on('message', on_message)
 # load script into the process
 script.load()
 
+# Otherwise early functions, such as onCreate(), can’t be hooked correctly in case you are required to do so.
+# device.resume()
+
 # read from stdin to keep script running
 sys.stdin.read()
