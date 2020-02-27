@@ -1,4 +1,4 @@
-## run: frida -U -l com.your.package script.js
+## run: frida -U com.your.package -l script.js
 
 Java.perform(function () {
   console.log("Step one");
