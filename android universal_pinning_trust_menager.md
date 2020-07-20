@@ -61,4 +61,4 @@ setTimeout(function(){
 ```
 
 ### References
-***source** https://codeshare.frida.re/@pcipolloni/universal-android-ssl-pinning-bypass-with-frida/
+**source** https://codeshare.frida.re/@pcipolloni/universal-android-ssl-pinning-bypass-with-frida/
